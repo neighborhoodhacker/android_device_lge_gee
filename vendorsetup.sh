@@ -14,4 +14,5 @@
 # limitations under the License.
 #
 
-add_lunch_combo liquid_gee-userdebug
+add_lunch_combo full_geespr-userdebug
+add_lunch_combo omni_geespr-userdebug
