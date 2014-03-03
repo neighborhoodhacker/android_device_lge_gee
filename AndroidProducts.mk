@@ -16,4 +16,4 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/full_gee.mk \
-    $(LOCAL_DIR)/cm_gee.mk
+    $(LOCAL_DIR)/cm.mk
