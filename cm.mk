@@ -20,7 +20,7 @@
 # Get the long list of APNs
 $(call inherit-product, vendor/cm/config/gsm.mk)
 
-$(call inherit-product, vendor/cm/config/gsm.mk)
+$(call inherit-product, vendor/cm/config/cdma.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
