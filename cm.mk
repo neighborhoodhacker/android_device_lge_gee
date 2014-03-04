@@ -20,6 +20,8 @@
 # Get the long list of APNs
 $(call inherit-product, vendor/cm/config/gsm.mk)
 
+$(call inherit-product, vendor/cm/config/gsm.mk)
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
 TARGET_SCREEN_WIDTH := 768
@@ -29,6 +31,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit from our CM product configuration
 $(call inherit-product, vendor/cm/config/common.mk)
+
+# Inherit some common CM stuff.
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/lge/gee/device.mk)
