@@ -55,4 +55,4 @@ TARGET_SELINUX_CONFIG := gee_defconfig
 $(call inherit-product, vendor/lge/gee/gee-vendor.mk)
 
 # Enable Torch
-#PRODUCT_PACKAGES += Torch
+PRODUCT_PACKAGES += Torch
