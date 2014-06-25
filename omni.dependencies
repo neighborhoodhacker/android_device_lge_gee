@@ -1,0 +1,26 @@
+[
+  {
+    "remote":      "github",
+    "repository":  "neighborhoodhacker/android_device_lge_gee-common",
+    "target_path": "device/lge/gee-common",
+    "revision":    "omni"
+  },
+  {
+    "remote":      "github",
+    "repository":  "neighborhoodhacker/android_device_lge_gee",
+    "target_path": "device/lge/gee",
+    "revision":    "omni"
+  },
+  {
+    "remote":      "github",
+    "repository":  "neighborhoodhacker/kernel_msm",
+    "target_path": "kernel/lge/gee",
+    "revision":    "4.4.x"
+  },
+  {
+    "remote":      "github",
+    "repository":  "neighborhoodhacker/proprietary_vendor_lge",
+    "target_path": "vendor/lge/gee",
+    "revision":    "4.4.x"
+  }
+]
